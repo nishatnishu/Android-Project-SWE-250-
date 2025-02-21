@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   google_fonts: ^6.2.1
+  iconsax: ^0.0.8
 
 dev_dependencies:
   flutter_test:
@@ -60,9 +61,9 @@ flutter:
     - assets/images/nepal1.jpg
     - assets/images/nepal2.jpg
     - assets/images/nepal4.jpeg
-    - assets/images/world_peace_pagoda.jpg
-    - assets/images/user.png
     - assets/images/WorldPeacePagoda.jpg
+    - assets/images/createAccount.jpeg
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -75,6 +76,24 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+    
+  fonts:
+    - family: Domino
+      fonts:
+        - asset: fonts/Domino.ttf
+
+    - family: Bitshow
+      fonts:
+        - asset: fonts/Bitshow.ttf
+    - family: Flying Bubble 
+      fonts:
+        - asset: fonts/Flying Bubble.otf
+    - family: CheeseOrange-Regular
+      fonts:
+        - asset: fonts/CheeseOrange-Regular.otf
+
+
+
   # fonts:
   #   - family: Schyler
   #     fonts:

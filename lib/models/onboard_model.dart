@@ -1,24 +1,40 @@
 class OnboardModel {
-  String image, name;
+  String image;
+  String name;
+  String name1;
+  String name2;
 
-  OnboardModel({required this.image, required this.name});
+  OnboardModel({
+    required this.image,
+    required this.name,
+    required this.name1,
+    required this.name2,
+  });
 }
 
 List<OnboardModel> onboarding = [
   OnboardModel(
     image: 'assets/images/nepal1.jpg',
-    name: 'Explore Nepal with us.',
+    name: "Ring Ring!🔔",
+    name1: "Nepal is calling...📞",
+    name2: "Let's Explore?🏔️",
   ),
   OnboardModel(
     image: 'assets/images/nepal2.jpg',
-    name: "Natural Beauty of Nepal",
+    name: "where ",
+    name1: "        the Himalayas touch",
+    name2: "              the sky!🏞️",
   ),
   OnboardModel(
     image: 'assets/images/WorldPeacePagoda.jpg',
-    name: 'Peaceful Mind in Nature',
+    name: 'Nepal—',
+    name1: 'A Paradise on Earth 🌏',
+    name2: "",
   ),
   OnboardModel(
     image: 'assets/images/nepal4.jpeg',
-    name: 'Bright Mountain Range',
+    name: '\n \n Trek.',
+    name1: "                Explore.",
+    name2: "                    Live:)",
   ),
 ];
